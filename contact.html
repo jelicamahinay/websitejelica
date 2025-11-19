@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Jelica Mahinay</title>
+  <link rel="stylesheet" href="contact.css" />
+</head>
+<body>
+
+<header>
+  <div class="header-container">
+    <div class="profile">
+      <img src="images/pic.jpg" alt="Profile Photo">
+      <div class="title">
+        <h1>Jelica Mahinay</h1>
+        <p>Website</p>
+      </div>
+    </div>
+
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="aboutme.html">About Me</a>
+      <a href="profile.html">Profile</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <h2>Get in Touch 💌</h2>
+    <p>I’d love to hear from you! Whether you have a question, feel free to reach out to me using the contact form below.</p>
+
+    
+    <form action="https://formsubmit.co/jelicamahinay65@gmail.com" method="POST" class="contact-form">
+      <input type="hidden" name="_subject" value="New message from website">
+      <input type="hidden" name="_captcha" value="true">
+      <input type="hidden" name="_next" value="thankyou.html"> 
+
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+      <button type="submit" class="button">Send Message</button>
+    </form>
+  </section>
+
+  <section class="connect-section">
+    <h3>Connect with Me</h3>
+    <div class="social-links">
+      <a href="https://www.facebook.com/jelica.vito.mahinay" target="_blank" rel="noopener noreferrer">
+        <img src="images/fbicon.png" alt="Facebook">
+      </a>
+      <a href="https://www.instagram.com/jelica_mahinay" target="_blank" rel="noopener noreferrer">
+        <img src="images/Igicon.png" alt="Instagram">
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 Jelica Mahinay. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
